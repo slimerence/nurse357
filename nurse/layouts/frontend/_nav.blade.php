@@ -14,16 +14,16 @@
                     <a class="nav-link" href="/">HOME</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="{{ url('/about-us') }}">ABOUT US</a>
+                    <a class="nav-link" href="{{ url('/') }}">ABOUT US</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="{{ url('/team-building') }}">PRODUCT</a>
+                    <a class="nav-link" href="{{ url('/') }}">PRODUCT</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="{{ url('/party') }}">SHOP NOW</a>
+                    <a class="nav-link" href="{{ url('/') }}">SHOP NOW</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="{{ url('/contact-us') }}">CONTACT</a>
+                    <a class="nav-link" href="{{ url('/') }}">CONTACT</a>
                 </li>
             </ul>
         </div>

@@ -1,4 +1,4 @@
-<section class="page-section" id="about">
+<section class="page-section">
     <div class="container wow fadeIn" style="visibility: visible; animation-name: fadeIn;">
         <div class="row">
             <div class="col-lg-6">

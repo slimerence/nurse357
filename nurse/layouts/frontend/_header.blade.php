@@ -5,10 +5,10 @@
         <div class="row h-100">
             <div class="col-12 my-auto">
                 <div class="product-text text-white text-center">
-                    <h2>Nurse 357</h2>
+                    <h2 style="font-style:italic;">NURSE 357</h2>
                     <h4>Proudly Australian Owned</h4>
                     <hr class="colored">
-                    <h3>Only Available in Ramsay</h3>
+                    <h3>Only Available in Ramsay Pharmacy</h3>
                 </div>
             </div>
 

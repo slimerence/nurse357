@@ -2,7 +2,7 @@
 
 @section('content')
     @include(_get_frontend_layout_path('frontend._header'))
-    <section id="banner">
+    <section id="about">
         <div class="container text-center">
             <div class="row">
                 <div class="col-6 my-auto">
