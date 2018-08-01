@@ -1,0 +1,21 @@
+footer.footer {
+    padding: 50px 0 20px;
+    color: fade-out(white, 0.3);
+    @include background-cover;
+    @include background-fixed;
+    a {
+        color: fade-out(white, 0.3);
+        &:hover {
+            color: black;
+        }
+    }
+    .footer-contact-details {
+        margin: 75px 0;
+    }
+    .footer-social {
+        margin-bottom: 75px;
+    }
+    .copyright {
+        font-size: 1rem;
+    }
+}
