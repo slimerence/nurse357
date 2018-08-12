@@ -2,17 +2,17 @@
 
 @section('content')
     @include(_get_frontend_layout_path('frontend._header'))
-    <section id="about">
+    <section id="about" style="padding:20px 0;">
         <div class="container text-center">
             <div class="row">
                 <div class="col-6 my-auto">
                     <div class="logo-img">
-                        <img src="{{ asset('images/LOGO.PNG') }}">
+                        <img class="img-fluid" src="{{ asset('images/logo.png') }}">
                     </div>
                 </div>
                 <div class="col-6 my-auto">
                     <div class="logo-img">
-                        <img src="{{ asset('images/logo2.png') }}">
+                        <img class="img-fluid" src="{{ asset('images/logo2.png') }}">
                     </div>
                 </div>
             </div>

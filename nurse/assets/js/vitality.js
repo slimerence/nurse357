@@ -55,10 +55,14 @@ $(document).ready(function() {
 
   // Collapse Navbar
   var navbarCollapse = function() {
-    if ($("#mainNav").offset().top > 100) {
-      $("#mainNav").addClass("navbar-shrink");
-    } else {
-      $("#mainNav").removeClass("navbar-shrink");
+    if($('.masthead').length>0){
+      if ($("#mainNav").offset().top > 100) {
+        $("#mainNav").addClass("navbar-shrink");
+      } else {
+        $("#mainNav").removeClass("navbar-shrink");
+      }
+    }else {
+        $("#mainNav").addClass("navbar-shrink");
     }
   };
   // Collapse now if page is not at top

@@ -1,9 +1,33 @@
 window._ = require('lodash');
-window.Popper = require('popper.js').default;
-
 window.axios = require('axios');
-
 window.axios.defaults.headers.common['X-Requested-With'] = 'XMLHttpRequest';
+let token = document.head.querySelector('meta[name="csrf-token"]');
+
+if (token) {
+    window.axios.defaults.headers.common['X-CSRF-TOKEN'] = token.content;
+} else {
+    console.error('CSRF token not found: https://laravel.com/docs/csrf#csrf-x-csrf-token');
+}
+
+// 导入 bulma 所需的Plugin
+import '../../../assets/js/bulma/accordion';
+
+// 导入 Slideout 库
+import Slideout from 'slideout';
+
+// 导入 fastclick 库
+import fastclick from 'fastclick';
+
+// 导入FancyBox库
+require('!style-loader!css-loader!@fancyapps/fancybox/dist/jquery.fancybox.css')
+require('@fancyapps/fancybox');
+
+// 导入 videojs 库
+require('!style-loader!css-loader!video.js/dist/video-js.css');
+import videojs from 'video.js';
+
+
+
 window.Vue = require('vue');
 // 加载Element UI 库
 import ElementUI from 'element-ui';
@@ -11,18 +35,85 @@ import 'element-ui/lib/theme-chalk/index.css';
 // import { Loading } from 'element-ui';
 Vue.use(ElementUI);
 
+// 导入子定义的 vue js editor组件
+Vue.component('CatalogViewer', require('../../../assets/js/components/catalog-viewer/catalogviewer.vue'));
+Vue.component('VuejsSlider', require('../../../assets/js/components/vuejs-slider/VuejsSlider.vue'));
+Vue.component('StripePayment', require('../../../assets/js/components/payments/stripe/StripePayment.vue'));
+
+fastclick.attach(document.body);
+
 /**
- * Next we will register the CSRF Token as a common header with Axios so that
- * all outgoing HTTP requests automatically have it attached. This is just
- * a simple convenience so we don't have to attach every token manually.
+ * 全局可用的通知函数
+ * @param vm
+ * @param type
+ * @param title
+ * @param msg
+ * @private
  */
 
-let token = document.head.querySelector('meta[name="csrf-token"]');
 
-if (token) {
-    window.axios.defaults.headers.common['X-CSRF-TOKEN'] = token.content;
-} else {
-    console.error('CSRF token not found: https://laravel.com/docs/csrf#csrf-x-csrf-token');
+window._notify = function(vm, type, title, msg){
+    // 显示弹出消息的方法
+    vm.$notify({title:title,message:msg,type:type,position:'bottom-right'});
+    return;
+}
+
+// 导航菜单的应用
+let naviAppEl = document.getElementById('navigation-app');
+if(naviAppEl){
+    let NavigationApp = new Vue({
+        el: '#navigation-app',
+        data(){
+            return {
+                searchKeyword: '',
+                result:[]
+            }
+        },
+        methods:{
+            handleSelect(item){
+                window.location.href = item.uri;
+            },
+            querySearchAsync(queryString, cb){
+                if(queryString.length < 2){
+                    return;
+                }
+                axios.post(
+                    '/api/page/search_ajax',
+                    {q:queryString}
+                ).then(res=>{
+                    if(res.status==200 && res.data.error_no == 100){
+                        // 表示找到了结果
+                        cb(res.data.data.result)
+                    }
+                });
+            }
+        }
+    });
+}
+
+if(document.getElementById('menu')){
+    var slideout = new Slideout({
+        'panel': document.getElementById('panel'),
+        'menu': document.getElementById('menu'),
+        'padding': 256,
+        'tolerance': 70
+    });
+
+    document.querySelector('.toggle-button').addEventListener('click', function() {
+        slideout.toggle();
+    });
+}
+
+// 模仿京东的目录浏览控件
+if(document.getElementById('catalog-viewer-app')){
+    let catalogViewerApp = new Vue({
+        el: '#catalog-viewer-app',
+        data(){
+            return {
+
+            }
+        }
+    });
 }
 
 $(document).ready(function(){

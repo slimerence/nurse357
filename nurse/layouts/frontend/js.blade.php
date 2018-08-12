@@ -1,4 +1,3 @@
-
 <!-- Plugin JavaScript -->
 <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.1/js/bootstrap.bundle.min.js"></script>
@@ -10,8 +9,15 @@
 <script src="https://cdnjs.cloudflare.com/ajax/libs/mixitup/3.3.0/mixitup.min.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/wow/1.1.2/wow.min.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.min.js"></script>
+<script src="http://cdnjs.cloudflare.com/ajax/libs/fotorama/4.6.4/fotorama.js"></script>
+@if(isset($paymentMethods))
+    <script src="https://js.stripe.com/v3/"></script>
+@endif
 <!-- Contact form JavaScript -->
 <script src="{{url('js/all.js')}}"></script>
 <script src="{{url('js/jqBootstrapValidation.js')}}"></script>
-<!-- Custom scripts for this theme -->
-<script src="{{url('js/vitality.js')}}"></script>
+@if(isset($vuejs_libs_required))
+    @foreach($vuejs_libs_required as $lib)
+        @include('frontend.vuejs.'.$lib)
+    @endforeach
+@endif

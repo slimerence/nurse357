@@ -13,3 +13,17 @@
         </div>
     </div>
 </section>
+{{--
+<section>
+    <div class="d-flex flex-wrap">
+        <div class="item align-self-center">
+            <img class="img-fluid" src="{{ asset('images/ab1.jpg') }}" alt="">
+        </div>
+        <div class="item text-center px-lg-5 px-sm-2 align-self-center">
+            <h2>What Is Squalene?</h2>
+            <hr class="colored">
+            <p>Premium Australian vitamin brand Nurse357 was established in Melbourne 2013. We are the leaders in bringing a mono-brand vitamin concept business to the Australian marketplace.</p>
+            <p>Our company utilizes premier Australian pharmaceutical companies to manufacture the best Australian Made health food products utilizing locally sourced ingredients with the highest degree of safety and purity.  </p>
+        </div>
+    </div>
+</section>--}}
