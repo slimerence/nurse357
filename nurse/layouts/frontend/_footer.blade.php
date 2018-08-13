@@ -37,11 +37,11 @@
                 </div>
                 <div class="col-lg-2 col-md-4 col-sm-4">
                     <div class="footer-block">
-                        <h6 class="link-title">SOCIAL</h6>
+                        <h6 class="link-title">CUSTOMER</h6>
                         <ul class="link">
-                            <li><a href="{{ $siteConfig->facebook }}">Facebook</a></li>
-                            <li><a href="{{ $siteConfig->twitter }}">Twitter</a></li>
-                            <li><a href="{{ $siteConfig->linked_in }}">Linkedin</a></li>
+                            <li><a href="{{ url('frontend/customers/register') }}">Register</a></li>
+                            <li><a href="{{ url('frontend/customers/login') }}">Login</a></li>
+                            <li><a href="{{ url('frontend/customers/forget-password') }}">Reset Password</a></li>
                             <li><a href="{{ url('/contact-us') }}">More</a></li>
 
                         </ul>
