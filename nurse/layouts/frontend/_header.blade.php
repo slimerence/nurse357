@@ -1,5 +1,5 @@
 <!-- Masthead -->
-<header class="masthead video">
+<header class="masthead video mainpage">
     <div class="overlay"></div>
     <div class="container h-100">
         <div class="row h-100">

@@ -1,13 +1,14 @@
 @extends(_get_frontend_layout_path('catalog'))
 
 @section('content')
-    <div class="container ptb-80" id="cart-view-manager-app">
+    <section class="ptb-100">
         <div class="module-wrapper">
             <div class="container module-title">
                 <a class="module-breadcrumbs-link" href="{{ url('/') }}">Home</a> <span class="module-breadcrumbs-divider">/</span>
                 <a class="module-breadcrumbs-link" href="{{ url('/') }}">View Cart</a>
             </div>
         </div>
+    <div class="container" id="cart-view-manager-app">
         <div class="content">
             <div class="panel">
                 <br>
@@ -100,4 +101,5 @@
             </div>
         </div>
     </div>
+    </section>
 @endsection

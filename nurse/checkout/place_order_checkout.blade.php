@@ -2,6 +2,12 @@
 
 @section('content')
 <section class="shopping-cart ptb-100">
+    <div class="module-wrapper">
+        <div class="container module-title">
+            <a class="module-breadcrumbs-link" href="{{ url('/') }}">Home</a> <span class="module-breadcrumbs-divider">/</span>
+            <a class="module-breadcrumbs-link" href="{{ url('/') }}">Check Out</a>
+        </div>
+    </div>
     <div class="container">
         <div class="content pt-40 mt-20" id="place-order-checkout-app">
         <div class="row">

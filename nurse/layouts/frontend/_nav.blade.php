@@ -22,6 +22,22 @@
                 <li class="nav-item">
                     <a class="nav-link" href="{{ url('/contact-us') }}">CONTACT</a>
                 </li>
+                @if(!session('user_data.id'))
+                    <li class="nav-item"> <a class="nav-link" href="{{ url('frontend/customers/login') }}"><i class="fa fa-sign-in" aria-hidden="true"></i><span> LOGIN</span></a></li>
+                    <li class="nav-item"> <a class="nav-link" href="{{ url('frontend/customers/register') }}"><i class="fa fa-user" aria-hidden="true"></i><span> REGISTER</span></a></li>
+                @else
+                    <li class="nav-item"> <a class="nav-link" href="{{ url('frontend/my_orders/'.session('user_data.uuid')) }}"><i class="fa fa-wpforms" aria-hidden="true"></i><span> MY ORDERS</span></a></li>
+                    <li class="nav-item"> <a class="nav-link" href="{{ route('logout') }}" onclick="event.preventDefault();document.getElementById('logout-form').submit();">
+                            <i class="fa fa-sign-out" aria-hidden="true"></i></i>
+                            <span> Logout</span>
+                            <form id="logout-form" action="{{ route('logout') }}" method="POST" class="hidden">
+                                @csrf
+                            </form>
+                        </a>
+                    </li>
+                @endif
+                <li class="nav-item"> <a class="nav-link" href="{{ url('/view_cart') }}"> <i class="fa fa-shopping-cart" aria-hidden="true"></i> <span> VIEW CART</span> </a>
+
             </ul>
         </div>
     </div>
