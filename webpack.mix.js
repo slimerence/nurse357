@@ -25,6 +25,7 @@ mix.styles([
 ], 'public/css/all.css');
 
 mix.scripts([
+    'public/js/vitality.js',
     'public/js/_custom.js',
 ], 'public/js/all.js');
 // 最终加载两个文件， all.css 和 all.js

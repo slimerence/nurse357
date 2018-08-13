@@ -7,7 +7,7 @@
             <div class="row">
                 <div class="col-6 my-auto">
                     <div class="logo-img">
-                        <img class="img-fluid" src="{{ asset('images/logo.png') }}">
+                        <img class="img-fluid" src="{{ asset('images/logonew.png') }}">
                     </div>
                 </div>
                 <div class="col-6 my-auto">
