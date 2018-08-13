@@ -1,12 +1,12 @@
 @extends(_get_frontend_layout_path('catalog'))
 
 @section('content')
-    <section class="grid-shop" id="product-view-manager-app" style="padding-top:80px">
+    <section class="grid-shop" id="product-view-manager-app" style="padding-top:80px; margin-bottom:60px;">
         <div class="module-wrapper">
             <div class="container module-title">
                 <a class="module-breadcrumbs-link" href="/">Home</a> <span class="module-breadcrumbs-divider">/</span>
-                <a class="module-breadcrumbs-link" href="/products/all">Products</a>
-                <span class="module-breadcrumbs-divider">/</span> <span>Nest Cam</span>
+                <a class="module-breadcrumbs-link" href="{{ url('/') }}">Products</a>
+                <span class="module-breadcrumbs-divider">/</span> <span>{{ $product->name }}</span>
             </div>
         </div>
         <!-- product-bg -->
@@ -18,7 +18,7 @@
                         <!-- product gallery -->
                         <div class="fotorama" data-nav="thumbs" data-navposition="left" data-arrows="false" data-autoplay="true" data-height="60%" data-maxheight="100%">
                             @foreach($product_images as $key=>$media)
-                                <img src="{{ asset($media->url) }}">
+                                <img src="{{ asset($media->url) }}" class="img-fluid">
                             @endforeach
                         </div>
                     </div>
@@ -119,58 +119,49 @@
                                     </div>
                                 </div>
                             </form>
-                            <div class="row">
-                                <div class="col-md-12">
-                                    <div class="row">
-                                        <div class="tab-bg">
-                                            <ul>
-                                                <li class="active"><a data-toggle="tab" href="#home">Description</a></li>
-                                                @foreach($product_attributes as $key=>$product_attribute)
-                                                    @if($product_attribute->location == \App\Models\Utils\OptionTool::$LOCATION_ADDITIONAL)
-                                                        <li><a data-toggle="tab" class="{{ $key==0&&empty($product->description) ? 'active' : null }}" href="#tab-content-{{$key}}">{{ $product_attribute->name }}</a></li>
-                                                    @endif
-                                                @endforeach
-                                            </ul>
-                                        </div>
-                                        <div class="tab-content product-detail-full">
-                                            @if(!empty($product->description))
-                                                <div id="home" class="tab-pane fade in active">
-                                                    @if(count($productDescriptionTop) > 0)
-                                                        @foreach($productDescriptionTop as $b)
-                                                            <ul class="list-group media-list media-list-stream">
-                                                                {!! $b->content !!}
-                                                            </ul>
-                                                        @endforeach
-                                                    @endif
-                                                    {!! $product->description !!}
-                                                    @if(count($productDescriptionBottom) > 0)
-                                                        <div class="is-clearfix"></div>
-                                                        @foreach($productDescriptionBottom as $b)
-                                                            <ul class="list-group media-list media-list-stream">
-                                                                {!! $b->content !!}
-                                                            </ul>
-                                                        @endforeach
-                                                    @endif
-                                                </div>
+                            <div class="product-desc mt-30">
+                                <nav>
+                                    <div class="nav nav-tabs" id="nav-tab" role="tablist">
+                                        @if(!empty($product->getProductDescription()))
+                                            <a class="nav-item nav-link active" id="nav-home-tab" data-toggle="tab" href="#product-description-tab-content" role="tab" aria-controls="nav-home" aria-selected="true">Description</a>
+                                        @endif
+                                        @foreach($product_attributes as $key=>$product_attribute)
+                                            @if($product_attribute->location == \App\Models\Utils\OptionTool::$LOCATION_ADDITIONAL)
+                                                <a class="nav-item nav-link {{ $key==0&&empty($product->getProductDescription()) ? 'active' : null }}" id="nav-tab-{{$key}}" data-toggle="tab" href="#tab-content-{{$key}}" role="tab" aria-controls="nav-profile" aria-selected="false">Profile</a>
                                             @endif
-                                            @foreach($product_attributes as $key=>$product_attribute)
-                                                @if($product_attribute->location == \App\Models\Utils\OptionTool::$LOCATION_ADDITIONAL)
-                                                    <div id="tab-content-{{$key}}" class="tab-pane fade {{ $key==0&&empty($product->description) ? 'active' : ' ' }}">
-                                                        <?php
-                                                        $productAttributeValue = $product_attribute->valuesOf($product);
-                                                        // {!! $productAttributeValue->value !!}
-                                                        if(count($productAttributeValue)>0){
-                                                            echo $productAttributeValue[0]->value;
-                                                        }
-                                                        ?>
-                                                    </div>
-                                                @endif
-                                            @endforeach
-
-                                        </div>
+                                        @endforeach
                                     </div>
+                                </nav>
+                                <div class="tab-content" id="nav-tabContent">
+                                    @if(!empty($product->getProductDescription()))
+                                        <div class="tab-pane fade show active" id="product-description-tab-content" role="tabpanel" aria-labelledby="nav-home-tab">
+                                            @if(count($productDescriptionTop) > 0)
+                                                @foreach($productDescriptionTop as $b)
+                                                    <div class="content">{!! $b->content !!}</div>
+                                                @endforeach
+                                            @endif
+                                            {!! $product->getProductDescription() !!}
+                                            @if(count($productDescriptionBottom) > 0)
+                                                @foreach($productDescriptionBottom as $b)
+                                                    <div class="content">{!! $b->content !!}</div>
+                                                @endforeach
+                                            @endif
+                                        </div>
+                                    @endif
+                                    @foreach($product_attributes as $key=>$product_attribute)
+                                        @if($product_attribute->location == \App\Models\Utils\OptionTool::$LOCATION_ADDITIONAL)
+                                            <div class="tab-pane fade {{ $key==0&&empty($product->getProductDescription()) ? '' : 'hidden' }}" id="tab-content-{{$key}}"  role="tabpanel" aria-labelledby="nav-tab-{{$key}}">
+                                                <?php
+                                                $productAttributeValue = $product_attribute->valuesOf($product);
+                                                // {!! $productAttributeValue->value !!}
+                                                if(count($productAttributeValue)>0){
+                                                    echo $productAttributeValue[0]->value;
+                                                }
+                                                ?>
+                                            </div>
+                                        @endif
+                                    @endforeach
                                 </div>
-                                <!-- right side -->
                             </div>
                         </div>
                         <!-- /.pro-text -->
@@ -179,8 +170,10 @@
             </div>
         </div>
         <!-- / product-bg -->
-
     </section>
+    @include(_get_frontend_theme_path('pages.elements.share'))
+    @include(_get_frontend_theme_path('pages.elements.detail'))
+
     <?php
     $relatedProducts = $product->loadRelatedProducts();
     ?>

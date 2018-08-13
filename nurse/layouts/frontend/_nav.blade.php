@@ -20,7 +20,7 @@
                     <a class="nav-link" href="{{ url('/product') }}">SHOP NOW</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="{{ url('/') }}">CONTACT</a>
+                    <a class="nav-link" href="{{ url('/contact-us') }}">CONTACT</a>
                 </li>
             </ul>
         </div>

@@ -1,18 +1,13 @@
 @extends(_get_frontend_layout_path('catalog'))
-@section('topbar')
-    <div class="inner-header" style="background: url({{ asset('images/cutemoew/slideshow_1.jpg') }});">
-        <h2>Shop Categories</h2>
-        <div class="bdr">
-            <ul>
-                <li><a href="{{ url('/') }}">Home</a></li>
-                <li>/</li>
-                <li><span>View Cart</span></li>
-            </ul>
-        </div>
-    </div>
-@endsection
+
 @section('content')
-    <div class="container pt-40  pl-20 pr-20" id="cart-view-manager-app">
+    <div class="container ptb-80" id="cart-view-manager-app">
+        <div class="module-wrapper">
+            <div class="container module-title">
+                <a class="module-breadcrumbs-link" href="{{ url('/') }}">Home</a> <span class="module-breadcrumbs-divider">/</span>
+                <a class="module-breadcrumbs-link" href="{{ url('/') }}">View Cart</a>
+            </div>
+        </div>
         <div class="content">
             <div class="panel">
                 <br>
@@ -29,7 +24,7 @@
                             label="" width="150">
                         <template slot-scope="scope">
                             <a :href="'frontend/product/'+scope.row.id">
-                                <img :src="scope.row.options.thumbnail" class="product-thumb">
+                                <img :src="scope.row.options.thumbnail" class="product-thumb img-fluid">
                             </a>
                         </template>
                     </el-table-column>

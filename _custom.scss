@@ -153,12 +153,12 @@ footer.footer a {
 }
 
 .features-box-left {
-  padding-left: 75px;
+  padding-left: 40px;
   text-align: left;
 }
 
 .features-box-right {
-  padding-right: 75px;
+  padding-right: 40px;
   text-align: right;
 }
 
@@ -177,4 +177,216 @@ footer.footer a {
 .features-icon-right {
   padding-left: 20px;
   right: 0;
+}
+.features-icon{
+  i{
+    font-size: 2.5em;
+    color:$themePrimary;
+  }
+  margin-bottom: 15px;
+}
+.features-title{
+  margin: 0 0 10px;
+  font-size: 22px;
+  line-height: 32px;
+  color: $themePrimary;
+  font-style: normal;
+  font-weight: 300;
+}
+.features-content{
+  display: block;
+  font-size: 16px;
+  line-height: 26px;
+  color: #797676;
+  padding:15px 0;
+}
+.features-box{
+  margin-top: 30px!important;
+  margin-bottom: 30px!important;
+}
+.feature-head{
+  font-style: normal;
+  font-weight: 300;
+  font-size: 36px;
+  line-height: 46px;
+}
+.feature-sub{
+  font-style: normal;
+  font-weight: 300;
+  display: block;
+  max-width: 900px;
+  padding: 15px 0 0;
+  margin: 0 auto;
+  color: #797676;
+  font-size: 18px;
+  line-height: 28px;
+}
+.feature-header{
+  margin-bottom: 60px;
+}
+@media (max-width: 576px){
+  .features-box,.features-box-left,.features-box-right{
+    text-align: center;
+    padding:0 2em;
+  }
+}
+/*share section*/
+#share-group{
+  .flex-item{
+    position: relative;
+    width: 20%;
+    color: #797676;
+    text-align: center;
+    font-size: 2em;
+    border: 1px solid #e3e3e3;
+    border-left-width: 0;
+    padding: 30px 0;
+  }
+  .i-facebook{
+    a{
+      color: $facebook;
+    }
+    &:hover{
+      background-color:$facebook ;
+      a{
+        color:#fff;
+      }
+    }
+  }
+  .i-google-plus{
+    a{
+      color:$googleplus;
+    }
+    &:hover{
+      background-color:$googleplus ;
+      a{
+        color:#fff;
+      }
+    }
+  }
+  .i-instagram{
+    a{
+      color: $instagramorange;
+    }
+    &:hover{
+      background-color:$instagramorange ;
+      a{
+        color:#fff;
+      }
+    }
+  }
+  .i-twitter{
+    a{
+      color:$twitter;
+    }
+    &:hover{
+      background-color:$twitter ;
+      a{
+        color:#fff;
+      }
+    }
+  }
+  .i-linkedin{
+    a{
+      color:$linkedin;
+    }
+    &:hover{
+      background-color:$linkedin ;
+      a{
+        color:#fff;
+      }
+    }
+  }
+}
+
+/*detail section*/
+
+.contact-form p input[type="text"],
+.contact-form p textarea {
+  border: 1px solid #e3e3e3;
+  border-radius: 5px;
+  font-size: 13px;
+  padding: 10px;
+  width: 100%;
+  background-color:#fff;
+  color:#000;
+}
+.contact-form .form-submit input {
+  background: #fff none repeat scroll 0 0;
+  border-radius: 5px;
+  color: #fff;
+  font-size: 13px;
+  font-weight: 300;
+  line-height: 24px;
+  margin-bottom: 50px;
+  margin-top: 40px;
+  text-transform: uppercase;
+  width: 100%;
+}
+.contact-title.text-center span {
+  color: #9d9d9d;
+  font-family: "Poppins", sans-serif;
+  font-size: 15px;
+  font-weight: 100;
+  text-transform: uppercase;
+}
+.contact-title.text-center {
+  color: #606060;
+  margin-bottom: 50px;
+}
+.contact-title.text-center>h2 {
+  margin-bottom: 30px;
+}
+.contact-info {
+  padding: 30px 0 100px;
+}
+#commentform {
+  margin-top: 30px;
+}
+.contact-info strong {
+  display: inline-table;
+  font-size: 15px;
+  font-weight: 500;
+}
+.contact-info>ul {
+  list-style: outside none none;
+  padding: 0;
+}
+.contact-info li {
+  float: left;
+  margin-bottom: 50px;
+  width: 100%;
+}
+.contact-info .f-sicon2 ul {
+  margin: 30px 0 0 0;
+  padding: 0;
+}
+.contact-info .f-sicon2 li {
+  float: inherit;
+  margin: 0 15px 0 0;
+}
+.contact-info .f-sicon2 li a {
+  color: rgb(96, 96, 96);
+  font-size: 16px;
+}
+.contact-info .img-icon {
+  float: left;
+  margin-right: 25px;
+}
+#input-email {
+  width: 100%;
+  border: 1px solid #e3e3e3;
+  border-radius: 5px;
+  font-size: 13px;
+  padding: 10px;
+  background-color:#fff;
+  color:#000;
+}
+
+#submit-contact-us-btn{
+  border: none;
+  width: 100%;
+  background-color: $themePrimary;
+  padding:0.5em;
+  color:#fff;
 }

@@ -23,6 +23,13 @@ class CustomPageController extends Controller
     {
         parent::__construct();
     }
+    public function error(){
+        $this->dataForView['menuName'] = '404';
+        return view(
+            _get_frontend_theme_path('pages.404'),
+            $this->dataForView
+        );
+    }
 
     public function about(){
         $this->dataForView['menuName'] = 'about-us';
