@@ -12,7 +12,7 @@
                     <input type="text" class="input w-100" id="staticEmail" name="email" placeholder="email@example.com">
                 </div>
                 @if ($errors->has('email'))
-                    <p class="help is-danger">{{ $errors->first('email') }}</p>
+                    <p class="help danger">{{ $errors->first('email') }}</p>
                 @endif
             </div>
             <div class="field mt">

@@ -30,15 +30,10 @@
         <div class="container wow fadeIn" style="visibility: visible; animation-name: fadeIn;">
             <div class="row">
                 <div class="col-md-10 mx-auto">
-            <span class="quote">Good
-              <span class="text-primary">design</span>
-              is finding that perfect balance between the way something
-              <span class="text-primary">looks</span>
-              and how it
-              <span class="text-primary">functions</span>.</span>
+            <span class="quote">如果您想购买<span class="text-primary">真正的</span>澳洲鱼油，NURSE357<span class="text-primary">鲛鯊宝</span>将是您的首选。</span>
                     <hr class="colored">
-                    <a class="btn btn-primary js-scroll-trigger" href="#process">How We Work</a>
-                </div>
+                    <a class="btn btn-primary js-scroll-trigger" href="{{ url('/product') }}">Shop Now</a>
+            </div>
             </div>
         </div>
     </section>

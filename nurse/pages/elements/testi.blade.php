@@ -6,7 +6,7 @@
                 <div class="testimonials-carousel">
                     <!-- Testimonial Item 1 -->
                     <div class="item mb-4">
-                        <p class="lead">"Working with Vitality was both a valuable and rewarding experience."</p>
+                        <p class="lead">"Nurse357真的非常好用。"</p>
                         <hr class="colored">
                         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Reprehenderit, temporibus, laborum, dignissimos doloremque corporis alias nostrum recusandae culpa id quisquam harum impedit sed sunt non obcaecati vero ipsam aut fugit?</p>
                         <div class="testimonial-author">
@@ -16,7 +16,7 @@
                     </div>
                     <!-- Testimonial Item 2 -->
                     <div class="item mb-4">
-                        <p class="lead">"Vitality is a well coded, well documented, and easy to use theme!"</p>
+                        <p class="lead">"我也很喜欢Nurse357"</p>
                         <hr class="colored">
                         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quidem amet rem minus dolorum, facere in soluta explicabo, unde eveniet illo vel, nemo nostrum atque nesciunt facilis quaerat quasi reprehenderit dicta.</p>
                         <div class="testimonial-author">

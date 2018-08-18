@@ -34,7 +34,7 @@ class CustomPageController extends Controller
     public function about(){
         $this->dataForView['menuName'] = 'about-us';
         return view(
-            _get_frontend_theme_path('pages.404'),
+            _get_frontend_theme_path('pages.about_us'),
             $this->dataForView
         );
     }
