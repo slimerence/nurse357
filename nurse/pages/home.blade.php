@@ -33,7 +33,11 @@
         <div class="container wow fadeIn" style="visibility: visible; animation-name: fadeIn;">
             <div class="row">
                 <div class="col-md-10 mx-auto">
+                    @if(app()->getLocale()=='cn')
             <span class="quote">如果您想购买<span class="text-primary">真正的</span>澳洲鱼油，NURSE357<span class="text-primary">鲛鯊宝</span>将是您的首选。</span>
+                    @else
+                        <span class="quote text-uppercase">If you are going to buy <span class="text-primary">real</span> Australian fish oil，<span class="text-primary"> NURSE357 Squalene</span> will be your best choice.</span>
+                    @endif
                     <hr class="colored">
                     <a class="btn btn-primary js-scroll-trigger" href="{{ url('/product') }}">Shop Now</a>
             </div>
