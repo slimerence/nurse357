@@ -51,7 +51,7 @@
                                 <strong>Email  </strong>
                                 <br/> {{ $siteConfig->contact_email }}
                             </li>
-                            <li>
+{{--                            <li>
                                 <div class="img-icon">
                                     <i class="fa fa-weixin"></i>
                                 </div>
@@ -59,7 +59,7 @@
                                 <div class="qrcode">
                                     <span>Scan QR code</span>
                                 </div>
-                            </li>
+                            </li>--}}
                         </ul>
 
                     </div>

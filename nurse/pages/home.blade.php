@@ -4,13 +4,16 @@
     @include(_get_frontend_layout_path('frontend._header'))
     <section id="about" style="padding:20px 0;">
         <div class="container text-center">
-            <div class="row">
-                <div class="col-6 my-auto">
+            <div class="d-flex">
+                <div class="align-self-center my-auto">
                     <div class="logo-img">
                         <img class="img-fluid" src="{{ asset('images/logonew.png') }}">
                     </div>
                 </div>
-                <div class="col-6 my-auto">
+                <div class="d-none d-lg-block align-self-center">
+                    <span style="font-size:20px;">Only Available In</span>
+                </div>
+                <div class="align-self-center my-auto">
                     <div class="logo-img">
                         <img class="img-fluid" src="{{ asset('images/logo2.png') }}">
                     </div>

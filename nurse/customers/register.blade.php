@@ -28,19 +28,19 @@
                 <div class="row">
                     <div class="field col-md-6">
                         <label for="inputName" class="label">Name<span class="has-text-danger">*</span></label>
-                        <input required type="text" class="input {{ $errors->has('name') ? 'is-danger' : '' }}" id="inputName" value="{{ old('name') }}" name="name" placeholder="Full Name">
+                        <input required type="text" class="input {{ $errors->has('name') ? 'text-danger' : '' }}" id="inputName" value="{{ old('name') }}" name="name" placeholder="Full Name">
                         @if ($errors->has('name'))
-                            <p class="help is-danger">
+                            <p class="help alert-danger">
                                 <span>{{ $errors->first('name') }}</span>
                             </p>
                         @endif
                     </div>
                     <div class="field col-md-6">
                         <label for="inputEmail" class="label">Email <span class="has-text-danger">*</span></label>
-                        <input required type="email" class="input {{ $errors->has('email') ? 'is-danger' : '' }}"  value="{{ old('email') }}" id="inputEmail" name="email" placeholder="Email">
+                        <input required type="email" class="input {{ $errors->has('email') ? 'text-danger' : '' }}"  value="{{ old('email') }}" id="inputEmail" name="email" placeholder="Email">
                         <div class="invalid-feedback has-text-danger" id="inputEmailErrorMessage"></div>
                         @if ($errors->has('email'))
-                            <p class="help is-danger">
+                            <p class="help alert-danger">
                                 <span>{{ $errors->first('email') }}</span>
                             </p>
                         @endif
@@ -49,9 +49,9 @@
                 <div class="row">
                     <div class="col-md-6 {{ $errors->has('password') ? ' has-error' : '' }}">
                         <label for="inputPassword" class="label">Password&nbsp;<span class="has-text-danger">*</span></label>
-                        <input required type="password" class="input {{ $errors->has('password') ? 'is-danger' : '' }}" value="{{ old('password') }}" id="inputPassword" name="password" placeholder="Password">
+                        <input required type="password" class="input {{ $errors->has('password') ? 'text-danger' : '' }}" value="{{ old('password') }}" id="inputPassword" name="password" placeholder="Password">
                         @if ($errors->has('password'))
-                            <p class="help is-danger">
+                            <p class="help alert-danger">
                                 <span>{{ $errors->first('password') }}</span>
                             </p>
                         @endif
@@ -64,9 +64,9 @@
                 <div class="field {{ $errors->has('address') ? ' has-error' : '' }}">
                     <div class="control">
                         <label for="inputAddress" class="label">Address&nbsp;<span class="has-text-danger">*</span></label>
-                        <input required type="text" class="input {{ $errors->has('address') ? 'is-danger' : '' }}" id="inputAddress" value="{{ old('address') }}" name="address" placeholder="Apartment, studio, or floor, 1234 Main St">
+                        <input required type="text" class="input {{ $errors->has('address') ? 'text-danger' : '' }}" id="inputAddress" value="{{ old('address') }}" name="address" placeholder="Apartment, studio, or floor, 1234 Main St">
                         @if ($errors->has('address'))
-                            <p class="help is-danger">
+                            <p class="help alert-danger">
                                 <span>{{ $errors->first('address') }}</span>
                             </p>
                         @endif
@@ -76,27 +76,27 @@
                 <div class="row">
                     <div class="col-md-3 col-sm-6 {{ $errors->has('city') ? ' has-error' : '' }}">
                         <label for="inputCity" class="label">Suburb&nbsp;<span class="has-text-danger">*</span></label>
-                        <input required type="text" class="input {{ $errors->has('city') ? 'is-danger' : '' }}" id="inputCity" value="{{ old('city') }}" name="city" placeholder="Suburb / City">
+                        <input required type="text" class="input {{ $errors->has('city') ? 'text-danger' : '' }}" id="inputCity" value="{{ old('city') }}" name="city" placeholder="Suburb / City">
                         @if ($errors->has('city'))
-                            <p class="help is-danger">
+                            <p class="help alert-danger">
                                 <span>{{ $errors->first('city') }}</span>
                             </p>
                         @endif
                     </div>
                     <div class="col-md-3 col-sm-6 {{ $errors->has('state') ? ' has-error' : '' }}">
                         <label for="inputState" class="label">State&nbsp;<span class="has-text-danger">*</span></label>
-                        <input required type="text" class="input {{ $errors->has('state') ? 'is-danger' : '' }}" value="{{ old('state') }}" name="state" id="inputState" placeholder="State">
+                        <input required type="text" class="input {{ $errors->has('state') ? 'text-danger' : '' }}" value="{{ old('state') }}" name="state" id="inputState" placeholder="State">
                         @if ($errors->has('state'))
-                            <p class="help is-danger">
+                            <p class="help alert-danger">
                                 <span>{{ $errors->first('state') }}</span>
                             </p>
                         @endif
                     </div>
                     <div class="col-md-3 col-sm-6 {{ $errors->has('postcode') ? ' has-error' : '' }}">
                         <label for="inputZip" class="label">Postcode&nbsp;<span class="has-text-danger">*</span></label>
-                        <input required type="text" class="input {{ $errors->has('postcode') ? 'is-danger' : '' }}" value="{{ old('postcode') }}" name="postcode" id="inputZip" placeholder="Postcode">
+                        <input required type="text" class="input {{ $errors->has('postcode') ? 'text-danger' : '' }}" value="{{ old('postcode') }}" name="postcode" id="inputZip" placeholder="Postcode">
                         @if ($errors->has('postcode'))
-                            <p class="help is-danger">
+                            <p class="help alert-danger">
                                 <span>{{ $errors->first('postcode') }}</span>
                             </p>
                         @endif
@@ -110,7 +110,7 @@
                             </select>
                         </div>
                         @if ($errors->has('country'))
-                            <p class="help is-danger">
+                            <p class="help alert-danger">
                                 <span>{{ $errors->first('country') }}</span>
                             </p>
                         @endif

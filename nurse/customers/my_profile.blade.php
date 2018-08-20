@@ -9,7 +9,7 @@
             </div>
         </div>
     <div class="container" id="user-profile-manager-app">
-        <div class="content">
+        <div class="content ptb-60">
             <div class="row">
                 <div class="col-md-3">
                     <div class="content-title-line">

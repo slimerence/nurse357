@@ -22,6 +22,7 @@
         <div class="container">
             <div class="about-content" style="padding: 2em;
     box-shadow: 3px 3px 20px #969696;">
+                @if(app()->getLocale()=='cn')
                 <p>NURSE357（保健卫士）集团成立于2012年，总部在澳大利亚墨尔本，是一家致力于亚洲人保健，从事高端保健食品生产及
                 销售的公司。NURSE357系列产品通过澳大利亚药品管理局（TGA）认证， 严格按照澳洲cGMP药品制造规范守则生产及包装。
                 所有产品采用澳洲纯天然无污染原材料，并以现代生物高科技加工制造而成，达到了高纯度易吸收的效果。</p>
@@ -64,6 +65,21 @@
                         <img class="img-fluid rounded" style="max-height: 400px;" src="{{ asset('images/product/1.png') }}" alt="">
                     </div>
                 </div>
+                @else
+                    <p>Premium Australian vitamin brand Nurse357 was established in Melbourne 2013. We are the leaders in bringing a mono-brand vitamin concept business to the Australian marketplace.<br/>
+
+                    Our company utilizes premier Australian pharmaceutical companies to manufacture the best Australian Made health food products utilizing locally sourced ingredients with the highest degree of safety and purity.<br/>
+
+                    Our products, most of which are unique to Australia, aim to assist with the particularly stressful lifestyles and eating habits of the modern consumer.<br/>
+
+                    We produce vitamins in limited quantities, as our first priority is to maintain stringent quality control over ingredients and production. Further TGA (Therapeutic Goods Administration) approval means our products are tested and declared safe for consumption and our products are backed by scientific evidence.<br/>
+
+                    We distribute our brand through signature stores in Melbourne, online, and select wholesale accounts. We are looking to expand overseas accounts through franchise models and bring our premium products to everyone across the globe.<br/>
+
+                    Our customer base consists of predominantly Asian descent, discerning clientele who are looking for niche 100% Australian Made vitamin products of the highest quality and efficacy. We believe the breadth of our product line perfectly assists with their concerns: high blood pressure, immunity, nutrition, pollution detox and beauty.<br/>
+
+                    Since inception, our stores have been frequented by Chinese sporting and TV celebrities and as a market leader we have been featured in The Australian and on ABC's 7.30 report.</p>
+                @endif
             </div>
         </div>
     </section>

@@ -19,8 +19,8 @@
                         <ul class="link">
                             <li><a href="{{ url('/product') }}">Features</a></li>
                             <li><a href="{{ url('/about') }}">About</a></li>
-                            <li><a href="{{ url('/404') }}">News</a></li>
-                            <li><a href="{{ url('contact-us') }}">Contact</a></li>
+                            <li><a href="{{ url('/404') }}">Shop</a></li>
+                            <li><a href="{{ url('/contact-us') }}">Contact</a></li>
                         </ul>
                     </div>
                 </div>
@@ -29,9 +29,9 @@
                         <h6 class="link-title">HELP</h6>
                         <ul class="link">
                             <li><a href="{{ url('/404') }}">FAQ</a></li>
-                            <li><a href="{{ url('/404') }}">Terms & Conditions</a></li>
-                            <li><a href="{{ url('/404') }}">Shipping & Returns</a></li>
-                            <li><a href="{{ url('/404') }}">Billing</a></li>
+                            <li><a href="{{ url('/term') }}">Terms & Conditions</a></li>
+                            <li><a href="{{ url('/return') }}">Shipping & Returns</a></li>
+                            <li><a href="{{ url('/news') }}">News & Blogs</a></li>
                         </ul>
                     </div>
                 </div>

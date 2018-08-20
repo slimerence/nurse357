@@ -5,6 +5,7 @@
                 <img class="img-fluid rounded my-5" src="{{ asset('images/ab1.jpg') }}" alt="">
             </div>
             <div class="col-lg-6 text-center my-auto">
+                @if(app()->getLocale()=='cn')
                 <h2>什么是NURSE357</h2>
                 <hr class="colored">
                 <p>NURSE357（保健卫士）集团成立于2012年，总部在澳大利亚墨尔本，是一家致力于亚洲人保健，从事高端保健食品生产及
@@ -25,21 +26,13 @@
                     快速发展，在澳大利亚营养保健行业处于领先地
                     位，这便是NURSE357的创举。
                     鲛鲨宝原料取自栖息在纯净无污染</p>
+                @else
+                    <h2>What is NURSE357?</h2>
+                    <hr class="colored">
+                    <p>Premium Australian vitamin brand Nurse357 was established in Melbourne 2013. We are the leaders in bringing a mono-brand vitamin concept business to the Australian marketplace.</p>
+                    <p>Our company utilizes premier Australian pharmaceutical companies to manufacture the best Australian Made health food products utilizing locally sourced ingredients with the highest degree of safety and purity.  </p>
+                @endif
             </div>
         </div>
     </div>
 </section>
-{{--
-<section>
-    <div class="d-flex flex-wrap">
-        <div class="item align-self-center">
-            <img class="img-fluid" src="{{ asset('images/ab1.jpg') }}" alt="">
-        </div>
-        <div class="item text-center px-lg-5 px-sm-2 align-self-center">
-            <h2>What Is Squalene?</h2>
-            <hr class="colored">
-            <p>Premium Australian vitamin brand Nurse357 was established in Melbourne 2013. We are the leaders in bringing a mono-brand vitamin concept business to the Australian marketplace.</p>
-            <p>Our company utilizes premier Australian pharmaceutical companies to manufacture the best Australian Made health food products utilizing locally sourced ingredients with the highest degree of safety and purity.  </p>
-        </div>
-    </div>
-</section>--}}

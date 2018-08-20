@@ -13,6 +13,7 @@ use App\Models\Catalog\Brand;
 use App\Models\Catalog\Product;
 use App\Models\Widget\Block;
 use Illuminate\Http\Request;
+use Illuminate\Support\Facades\URL;
 use App\Models\Catalog\Product\Colour;
 use App\Models\Catalog\Tag;
 use Carbon;
@@ -23,6 +24,16 @@ class CustomPageController extends Controller
     {
         parent::__construct();
     }
+
+    public function switch_language($lang, Request $request){
+        if($lang == 'cn'){
+            $request->session()->put('prefer-lang','cn');
+        }else{
+            $request->session()->put('prefer-lang','en');
+        }
+        return redirect(URL::previous());
+    }
+
     public function error(){
         $this->dataForView['menuName'] = '404';
         return view(
@@ -37,5 +48,16 @@ class CustomPageController extends Controller
             _get_frontend_theme_path('pages.about_us'),
             $this->dataForView
         );
+    }
+    public function return(){
+        $this->dataForView['menuName'] = 'return';
+        return view(
+            _get_frontend_theme_path('pages.return'),
+            $this->dataForView
+        );
+    }
+
+    public function term(){
+        return response()->download( public_path(). '/download/terms.pdf');
     }
 }

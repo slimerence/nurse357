@@ -37,7 +37,7 @@
                     </li>
                 @endif
                 <li class="nav-item"> <a class="nav-link" href="{{ url('/view_cart') }}"> <i class="fa fa-shopping-cart" aria-hidden="true"></i> <span> VIEW CART</span> </a>
-
+                <li class="nav-item"> <a class="nav-link" href="{{ url('/switch-language/'.(app()->getLocale()=='cn' ? 'en':'cn')) }}"><span> {{ app()->getLocale()=='cn' ? 'ENGLISH':'中文' }}</span> </a>
             </ul>
         </div>
     </div>
