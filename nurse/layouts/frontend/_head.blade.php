@@ -8,6 +8,7 @@
     <link href="https://fonts.googleapis.com/css?family=Playfair+Display:400i" rel="stylesheet">
     <link href='https://fonts.googleapis.com/css?family=Roboto:400,100,100italic,300,300italic,400italic,500,500italic,700,700italic,900,900italic' rel='stylesheet' type='text/css'>
     <link href='https://fonts.googleapis.com/css?family=Raleway:400,100,200,300,600,500,700,800,900' rel='stylesheet' type='text/css'>
+    <link href="https://fonts.googleapis.com/css?family=Marck+Script" rel="stylesheet">
     <link rel="shortcut icon" href="{{ asset('images/favicon.png') }}" type="image/x-icon" />
     <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.1/css/bootstrap.min.css" />
     <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css" />

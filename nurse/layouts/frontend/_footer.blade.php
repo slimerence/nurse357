@@ -6,10 +6,7 @@
                 <div class="col-lg-3 col-md-12 col-sm-12">
                     <div class="footer-block">
                         <a class="mb-25" href="{{ url('/') }}">
-                            <img style="height: 20px;" src="{{ asset('images/logonormal.png') }}">
-                        </a>
-                        <a class="mt-3 mb-25" href="{{ url('/') }}">
-                            <img style="height: 60px;" src="{{ asset('images/logo2.png') }}">
+                            <img style="max-height: 40px;" src="{{ asset('images/logonew.png') }}">
                         </a>
                     </div>
                 </div>
@@ -50,8 +47,8 @@
                 <div class="col-lg-3 col-md-6 col-sm-12">
                     <div class="footer-block">
                         <h6 class="link-title">Contact</h6>
-                        <p>{{ $siteConfig->contact_address }}</p>
                         <ul class="link">
+                            <li>{{ $siteConfig->contact_address }}</li>
                             <li><a href="mailto:yourname@domain.com"><i class="fa fa-envelope-o left"></i>{{ $siteConfig->contact_email }}</a></li>
                             <li><a><i class="fa fa-phone left"></i>{{ $siteConfig->contact_phone }}</a></li>
                         </ul>
@@ -61,5 +58,5 @@
             <!-- End Footer Info -->
         </div>
     </div>
-
+    <p style="text-align: center;color: rgba(0, 0, 0, 0.7);font-size: 14px;">Copyright ©2018 Nurse357 Pty Ltd. All rights reserved.</p>
 </footer>

@@ -39,10 +39,10 @@
                                 @if($product->special_price)
                                   <span class="money">${{ $product->getSpecialPriceGST() }}</span>
                                     <span class="product-price-compare">
-                                      <span class="original money">${{ $product->getDefaultPriceGST() }}</span>
+                                      <span class="original money">${{ $product->getDefaultPriceGST() }}(GST Incl.)</span>
                                     </span>
                                     @else
-                                    <span class="money">${{ $product->getDefaultPriceGST() }}</span>
+                                    <span class="money">${{ $product->getDefaultPriceGST() }} (GST Incl.)</span>
                                 @endif
                                 </span>
                             </div>

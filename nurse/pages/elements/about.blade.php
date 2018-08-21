@@ -1,8 +1,8 @@
 <section class="page-section">
     <div class="container wow fadeIn" style="visibility: visible; animation-name: fadeIn;">
         <div class="row">
-            <div class="col-lg-6">
-                <img class="img-fluid rounded my-5" src="{{ asset('images/ab1.jpg') }}" alt="">
+            <div class="col-lg-6 text-center">
+                <img class="img-fluid rounded my-1" style="max-height: 450px;" src="{{ asset('images/ab2.jpg') }}" alt="">
             </div>
             <div class="col-lg-6 text-center my-auto">
                 @if(app()->getLocale()=='cn')

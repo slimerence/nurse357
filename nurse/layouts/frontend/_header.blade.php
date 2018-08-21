@@ -5,9 +5,11 @@
         <div class="row h-100">
             <div class="col-12 my-auto">
                 <div class="product-text text-white text-center">
-                    <h2 style="font-style:italic;">NURSE 357</h2>
+                    {{--<h2 style="font-size: 65px;font-family: 'Marck Script', cursive;">healthy isn’t a goal, it’s way of living</h2>--}}
+                    <img src="{{ asset('images/logofw.png') }}" alt="pt" class="img-fluid" style="max-height: 60px;">
                     <hr class="colored">
-                    <h3>Healthy isn’t a goal, it’s way of living</h3>
+                    <img src="{{ asset('images/product/1.png') }}" alt="pt" class="img-fluid" style="max-height: 200px;">
+
                 </div>
             </div>
 
