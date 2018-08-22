@@ -198,7 +198,7 @@
             </form>
             <div class="content-line">
                 <br>
-                <p class="value text-center">Once you register, it means you agree with our <a target="_blank" href="{{ url('/frontend/content/view/terms') }}">Terms & Conditions</a></p>
+                <p class="value text-center">Once you register, it means you agree with our <a target="_blank" href="{{ url('/term') }}">Terms & Conditions</a></p>
             </div>
         </div>
     </div>

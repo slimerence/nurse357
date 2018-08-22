@@ -14,11 +14,13 @@
                 <div class="col-md-12">
                     <h3 class="float-left">Create New Customer Account</h3>
                 </div>
+                @if(env('support_wholesale',false))
                 <div class="col-md-12">
                     <a class="cancel" href="{{ url('frontend/wholesalers/register') }}" style="color: #004a80;">
                         <i class="fa fa-object-group"></i>&nbsp;Or Become a Wholesaler
                     </a>
                 </div>
+                @endif
             </div>
         </div>
         <div class="box">
@@ -129,7 +131,7 @@
             </form>
             <div class="content-line">
                 <br>
-                <p class="value text-center">Once you register, it means you agree with our <a target="_blank" href="{{ url('/frontend/content/view/terms') }}">Terms & Conditions</a></p>
+                <p class="value text-center">Once you register, it means you agree with our <a target="_blank" href="{{ url('/term') }}">Terms & Conditions</a></p>
             </div>
         </div>
     </div>

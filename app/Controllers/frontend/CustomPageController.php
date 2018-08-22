@@ -58,6 +58,11 @@ class CustomPageController extends Controller
     }
 
     public function term(){
-        return response()->download( public_path(). '/download/terms.pdf');
+        //return response()->download( public_path(). '/download/terms.pdf');
+        $this->dataForView['menuName'] = 'term';
+        return view(
+            _get_frontend_theme_path('pages.term'),
+            $this->dataForView
+        );
     }
 }
