@@ -48,7 +48,7 @@
                     <div class="footer-block">
                         <h6 class="link-title">Contact</h6>
                         <ul class="link">
-                            <li>{{ $siteConfig->contact_address }}</li>
+                            <li><p style="font-size: 14px;">{{ $siteConfig->contact_address }}</p></li>
                             <li><a href="mailto:yourname@domain.com"><i class="fa fa-envelope-o left"></i>{{ $siteConfig->contact_email }}</a></li>
                             <li><a><i class="fa fa-phone left"></i>{{ $siteConfig->contact_phone }}</a></li>
                         </ul>
