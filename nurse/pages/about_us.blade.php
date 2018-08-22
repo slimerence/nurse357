@@ -25,7 +25,7 @@
                 @if(app()->getLocale()=='cn')
                 <p>NURSE357（保健卫士）集团成立于2012年，总部在澳大利亚墨尔本，是一家致力于亚洲人保健，从事高端保健食品生产及
                 销售的公司。NURSE357系列产品通过澳大利亚药品管理局（TGA）认证， 严格按照澳洲cGMP药品制造规范守则生产及包装。
-                所有产品采用澳洲纯天然无污染原材料，并以现代生物高科技加工制造而成，达到了高纯度易吸收的效果。</p>
+                所有产品采用澳洲纯天然无污染原材料，并以现代生物高科技加工制造而成，达到了高纯度易吸收的效果。</p><br>
                 <p>NURSE357公司通过对澳洲市场鲛鲨烯产品15年的深入研究和263例临床试验，从而推出了
                 高纯度鲛鲨烯- 鲛鲨宝 。与此同时，
                 NURSE357公司在十多年的实践中，将中医和
@@ -34,8 +34,7 @@
                 众多遵循NURSE357健康法则的亚健康患者的
                 健康状况迅速好转，有效率达到97%。目前公司
                 快速发展，在澳大利亚营养保健行业处于领先地
-                位，这便是NURSE357的创举。</p>
-
+                位，这便是NURSE357的创举。</p><br>
                 <div class="row">
                     <div class="col-lg-8 col-sm-12 align-self-center">
                         <p>鲛鲨宝原料取自栖息在纯净无污染的塔斯马尼亚
@@ -66,18 +65,17 @@
                     </div>
                 </div>
                 @else
-                    <p>Premium Australian vitamin brand Nurse357 was established in Melbourne 2013. We are the leaders in bringing a mono-brand vitamin concept business to the Australian marketplace.<br/>
+                    <p>Premium Australian vitamin brand Nurse357 was established in Melbourne 2013. We are the leaders in bringing a mono-brand vitamin concept business to the Australian marketplace.<br/><br>
 
-                    Our company utilizes premier Australian pharmaceutical companies to manufacture the best Australian Made health food products utilizing locally sourced ingredients with the highest degree of safety and purity.<br/>
+                    Our company utilizes premier Australian pharmaceutical companies to manufacture the best Australian Made health food products utilizing locally sourced ingredients with the highest degree of safety and purity.<br/><br>
 
-                    Our products, most of which are unique to Australia, aim to assist with the particularly stressful lifestyles and eating habits of the modern consumer.<br/>
-
+                    Our products, most of which are unique to Australia, aim to assist with the particularly stressful lifestyles and eating habits of the modern consumer.<br/><br>
                     We produce vitamins in limited quantities, as our first priority is to maintain stringent quality control over ingredients and production. Further TGA (Therapeutic Goods Administration) approval means our products are tested and declared safe for consumption and our products are backed by scientific evidence.<br/>
-
+                        <br>
                     We distribute our brand through signature stores in Melbourne, online, and select wholesale accounts. We are looking to expand overseas accounts through franchise models and bring our premium products to everyone across the globe.<br/>
-
+                        <br>
                     Our customer base consists of predominantly Asian descent, discerning clientele who are looking for niche 100% Australian Made vitamin products of the highest quality and efficacy. We believe the breadth of our product line perfectly assists with their concerns: high blood pressure, immunity, nutrition, pollution detox and beauty.<br/>
-
+                        <br>
                     Since inception, our stores have been frequented by Chinese sporting and TV celebrities and as a market leader we have been featured in The Australian and on ABC's 7.30 report.</p>
                 @endif
             </div>

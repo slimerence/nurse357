@@ -14,9 +14,8 @@
                     <div class="footer-block">
                         <h6 class="link-title">MAIN</h6>
                         <ul class="link">
-                            <li><a href="{{ url('/product') }}">Features</a></li>
+                            <li><a href="{{ url('/product') }}">Shop</a></li>
                             <li><a href="{{ url('/about') }}">About</a></li>
-                            <li><a href="{{ url('/404') }}">Shop</a></li>
                             <li><a href="{{ url('/contact-us') }}">Contact</a></li>
                         </ul>
                     </div>
@@ -28,7 +27,6 @@
                             <li><a href="{{ url('/404') }}">FAQ</a></li>
                             <li><a href="{{ url('/term') }}">Terms & Conditions</a></li>
                             <li><a href="{{ url('/return') }}">Shipping & Returns</a></li>
-                            <li><a href="{{ url('/news') }}">News & Blogs</a></li>
                         </ul>
                     </div>
                 </div>
@@ -39,8 +37,6 @@
                             <li><a href="{{ url('frontend/customers/register') }}">Register</a></li>
                             <li><a href="{{ url('frontend/customers/login') }}">Login</a></li>
                             <li><a href="{{ url('frontend/customers/forget-password') }}">Reset Password</a></li>
-                            <li><a href="{{ url('/contact-us') }}">More</a></li>
-
                         </ul>
                     </div>
                 </div>
