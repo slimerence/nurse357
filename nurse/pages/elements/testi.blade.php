@@ -6,7 +6,7 @@
                 <div class="testimonials-carousel">
                     <!-- Testimonial Item 1 -->
                     <div class="item mb-4">
-                        <p class="lead">"Nurse357真的非常好用。"</p>
+                        <p class="lead">"Nurse357 is such a good brand."</p>
                         <hr class="colored">
                         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Reprehenderit, temporibus, laborum, dignissimos doloremque corporis alias nostrum recusandae culpa id quisquam harum impedit sed sunt non obcaecati vero ipsam aut fugit?</p>
                         <div class="testimonial-author">
@@ -16,7 +16,7 @@
                     </div>
                     <!-- Testimonial Item 2 -->
                     <div class="item mb-4">
-                        <p class="lead">"我也很喜欢Nurse357"</p>
+                        <p class="lead">"I highly recommend Nurse357 to our friends."</p>
                         <hr class="colored">
                         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quidem amet rem minus dolorum, facere in soluta explicabo, unde eveniet illo vel, nemo nostrum atque nesciunt facilis quaerat quasi reprehenderit dicta.</p>
                         <div class="testimonial-author">
