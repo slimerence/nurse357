@@ -46,7 +46,9 @@
                         <ul class="link">
                             <li><p style="font-size: 14px;">{{ $siteConfig->contact_address }}</p></li>
                             <li><a href="mailto:yourname@domain.com"><i class="fa fa-envelope-o left"></i>{{ $siteConfig->contact_email }}</a></li>
+                            @if(isset($siteConfig->contact_phone) && ($siteConfig->contact_phone !=''))
                             <li><a><i class="fa fa-phone left"></i>{{ $siteConfig->contact_phone }}</a></li>
+                            @endif
                         </ul>
                     </div>
                 </div>
