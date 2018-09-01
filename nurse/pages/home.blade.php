@@ -11,7 +11,7 @@
                     </div>
                 </div>
                 <div class="d-none d-lg-block align-self-center">
-                    <span style="font-size:20px;">Only Available In</span>
+                    <span style="font-size:20px; text-transform: uppercase;">Only Available In Ramsay Pharmacy</span>
                 </div>
                 <div class="align-self-center my-auto">
                     <div class="logo-img">
@@ -22,8 +22,52 @@
         </div>
     </section>
     <section id="banner" class="bg-special">
-        <div class="container text-center text-white py-1">
-            <h3 class="mt-1" style="font-size: 20px">NURSE 357 - RAMSAY HEALTH CARE HOME BRAND</h3>
+        <div class="container text-white py-1">
+            <div class="row">
+                <div class="col-md-4 col-sm-12">
+                    <div class="ad-box">
+                        <h3>RAMSAY PHARMACY CBD</h3>
+                        <p>111 Bourke Street, Melbourne VIC 3000, AUSTRALIA</p>
+                        <h3 class="mt-20">Opening Hours</h3>
+                        <div class="no-list-style">
+                            <ul>
+                                <li>Monday to Friday: 7am - 7pm</li>
+                                <li>Saturday: 9am - 6pm</li>
+                                <li>Sunday: 10am - 5pm</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 col-sm-12">
+                    <div class="ad-box">
+                        <h3>RAMSAY PHARMACY TUNSTALL SQUARE</h3>
+                        <p>54 Tunstall Square, Doncaster East VIC 3109, AUSTRALIA</p>
+                        <h3 class="mt-20">Opening Hours</h3>
+                        <div class="no-list-style">
+                            <ul>
+                                <li>Monday to Friday: 7am - 7pm</li>
+                                <li>Saturday: 9am - 5pm</li>
+                                <li>Sunday: 10am - 2pm</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 col-sm-12">
+                    <div class="ad-box">
+                        <h3>QUEEN STREET MALL PHARMACY</h3>
+                        <p>141 Queen Street, Brisbane CBD, QLD 4000, AUSTRALIA</p>
+                        <h3 class="mt-20">Opening Hours</h3>
+                        <div class="no-list-style">
+                            <ul>
+                                <li>Monday to Thursday: 7am - 9pm</li>
+                                <li>Friday: 7am - 9:30pm</li>
+                                <li>Saturday: 8am - 9pm &nbsp;Sunday: 8:30am - 7pm</li>
+                                <li>Public Holidays: 9am - 7:30pm</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </div>
     </section>
     @include(_get_frontend_theme_path('pages.elements.about'))

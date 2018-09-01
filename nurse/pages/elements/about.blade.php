@@ -24,13 +24,16 @@
                     众多遵循NURSE357健康法则的亚健康患者的
                     健康状况迅速好转，有效率达到97%。目前公司
                     快速发展，在澳大利亚营养保健行业处于领先地
-                    位，这便是NURSE357的创举。
-                    鲛鲨宝原料取自栖息在纯净无污染</p>
+                    位，这便是NURSE357的创举。</p>
                 @else
                     <h2>What is NURSE357?</h2>
                     <hr class="colored">
-                    <p>Premium Australian vitamin brand Nurse357 was established in Melbourne 2013. We are the leaders in bringing a mono-brand vitamin concept business to the Australian marketplace.</p>
-                    <p>Our company utilizes premier Australian pharmaceutical companies to manufacture the best Australian Made health food products utilizing locally sourced ingredients with the highest degree of safety and purity.  </p>
+                    <p>Founded in 2013, NURSE357 is a leading and premium Australian health products brand, focusing on lowering blood lipid. After years of research and development and continuous clinical practice, NURSE357 Squalene is favoured by consumers.</p>
+
+                    <p>Nurse357 Squalene has highest purity and good effect. It stands out from many brands of Squalene products with a purity of 99.9%. It is one of the highest purity in Squalene class and has won the praise of consumers, so called " Vascular scavenger". As the exclusive sales partner, Ramsay Pharmacy also gives highest praise of Nurse357 Squalene's quality.</p>
+
+                    <p>Ramsay Pharmacy is a home brand of Australian-Listed company Ramsay Health Care. Ramsay Health Care was founded in 1964 and has branches in six countries including Australia, the United Kingdom, France, Italy, Indonesia and Malaysia. Headquartered in Sydney, Ramsay Health Care also manages 234 hospitals. Ramsay Pharmacy is the exclusive sales partner for NURSE357 products in Australia.</p>
+
                 @endif
             </div>
         </div>

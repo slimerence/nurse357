@@ -48,22 +48,22 @@
                 <div class="col-lg-4 col-md-12">
                     <div class="wow fadeIn" data-wow-delay=".8s" style="visibility: visible; animation-delay: 0.8s; animation-name: fadeIn;">
                         <i class="fa fa-smile-o fa-3x"></i>
-                        <h3 style="font-size: 20px;">Qualtity</h3>
-                        <p class="mb-0">Our company utilizes premier Australian pharmaceutical companies to manufacture the best Australian Made health food products.  </p>
+                        <h3 style="font-size: 20px;">Purity</h3>
+                        <p class="mb-0">Nurse357 has reached the highest purity that fish oil can't reach which is easily absorbed by the human body. </p>
                     </div>
                 </div>
                 <div class="col-lg-4 col-md-12">
                     <div class="wow fadeIn pb-4 pb-lg-0" data-wow-delay=".2s" style="visibility: visible; animation-delay: 0.2s; animation-name: fadeIn;">
                         <i class="fa fa-user fa-3x"></i>
-                        <h3 style="font-size: 20px;">Purpose</h3>
-                        <p class="mb-0">Our products, most of which are unique to Australia, aim to assist with the particularly stressful lifestyles and eating habits of the modern consumer. </p>
+                        <h3 style="font-size: 20px;">Innovation</h3>
+                        <p class="mb-0">Nurse357 is always committed to the research and innovation of Nutritional Health products.</p>
                     </div>
                 </div>
                 <div class="col-lg-4 col-md-12">
                     <div class="wow fadeInpb-4 pb-lg-0 animated" data-wow-delay=".4s" style="visibility: visible; animation-delay: 0.4s;">
                         <i class="fa fa-smile-o fa-3x"></i>
-                        <h3 style="font-size: 20px;">Contains</h3>
-                        <p class="mb-0">We produce vitamins in limited quantities, as our first priority is to maintain stringent quality control over ingredients and production.</p>
+                        <h3 style="font-size: 20px;">Supervision</h3>
+                        <p class="mb-0">Nurse357 is developed and manufactured under the supervision of the Australian Therapeutic Goods Administration (TGA).</p>
                     </div>
                 </div>
 
