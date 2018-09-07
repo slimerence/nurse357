@@ -12,7 +12,7 @@
             <div class="module page">
                 <div class="module-header page-header">
                     <div class="module-title">
-                        <h1 class="text-center">About Us</h1>
+                        <h1 class="text-center">{{ trans('nurse.about') }}</h1>
                     </div>
                 </div>
             </div>

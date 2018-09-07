@@ -78,15 +78,17 @@
             <div class="row">
                 <div class="col-md-10 mx-auto">
                     @if(app()->getLocale()=='cn')
-            <span class="quote">如果您想购买<span class="text-primary">真正的</span>澳洲鱼油，NURSE357<span class="text-primary">鲛鯊宝</span>将是您的首选。</span>
+                        <span class="quote">如果您想购买真正的澳洲鱼油，NURSE357鲛鯊宝将是您的首选。</span>
+                        <hr class="colored">
+                        <a class="btn btn-primary js-scroll-trigger" href="{{ url('/product') }}">立刻购买</a>
                     @else
                         <span class="quote text-uppercase">If you are going to buy real Australian fish oil，NURSE357 Squalene will be your best choice.</span>
+                        <hr class="colored">
+                        <a class="btn btn-primary js-scroll-trigger" href="{{ url('/product') }}">Shop Now</a>
                     @endif
-                    <hr class="colored">
-                    <a class="btn btn-primary js-scroll-trigger" href="{{ url('/product') }}">Shop Now</a>
-            </div>
+                </div>
             </div>
         </div>
     </section>
-    @include(_get_frontend_theme_path('pages.elements.testi'))
+    {{--@include(_get_frontend_theme_path('pages.elements.testi'))--}}
 @endsection

@@ -1,46 +1,47 @@
 <footer class="footer">
     <div class="ptb-60">
         <div class="container">
+            <div class="footer-info text-black-50">
             <!--Footer Info -->
-            <div class="row footer-info text-black-50">
+            <div class="row">
                 <div class="col-lg-3 col-md-12 col-sm-12">
-                    <div class="footer-block">
+                    <div class="footer-block" style="text-align: center;">
                         <a class="mb-25" href="{{ url('/') }}">
                             <img style="max-height: 40px;" src="{{ asset('images/logonew.png') }}">
                         </a>
                     </div>
                 </div>
-                <div class="col-lg-2 col-md-4 col-sm-4">
+                <div class="col-lg-2 col-6">
                     <div class="footer-block">
                         <h6 class="link-title">MAIN</h6>
                         <ul class="link">
-                            <li><a href="{{ url('/product') }}">Shop</a></li>
-                            <li><a href="{{ url('/about') }}">About</a></li>
-                            <li><a href="{{ url('/contact-us') }}">Contact</a></li>
+                            <li><a href="{{ url('/product') }}">{{ trans('nurse.shop') }}</a></li>
+                            <li><a href="{{ url('/about') }}">{{ trans('nurse.about') }}</a></li>
+                            <li><a href="{{ url('/contact-us') }}">{{ trans('nurse.contact') }}</a></li>
                         </ul>
                     </div>
                 </div>
-                <div class="col-lg-2 col-md-4 col-sm-4">
+                <div class="col-lg-2 col-6">
                     <div class="footer-block">
                         <h6 class="link-title">HELP</h6>
                         <ul class="link">
-                            <li><a href="{{ url('/404') }}">FAQ</a></li>
-                            <li><a href="{{ url('/term') }}">Terms & Conditions</a></li>
-                            <li><a href="{{ url('/return') }}">Shipping & Returns</a></li>
+                            <li><a href="{{ url('/404') }}">{{ trans('nurse.faq') }}</a></li>
+                            <li><a href="{{ url('/term') }}">{{ trans('nurse.terms') }}</a></li>
+                            <li><a href="{{ url('/return') }}">{{ trans('nurse.shipreturn') }}</a></li>
                         </ul>
                     </div>
                 </div>
-                <div class="col-lg-2 col-md-4 col-sm-4">
+                <div class="col-lg-2 col-6">
                     <div class="footer-block">
                         <h6 class="link-title">CUSTOMER</h6>
                         <ul class="link">
-                            <li><a href="{{ url('frontend/customers/register') }}">Register</a></li>
-                            <li><a href="{{ url('frontend/customers/login') }}">Login</a></li>
-                            <li><a href="{{ url('frontend/customers/forget-password') }}">Reset Password</a></li>
+                            <li><a href="{{ url('frontend/customers/register') }}">{{ trans('nurse.register') }}</a></li>
+                            <li><a href="{{ url('frontend/customers/login') }}">{{ trans('nurse.login') }}</a></li>
+                            <li><a href="{{ url('frontend/customers/forget-password') }}">{{ trans('nurse.reset') }}</a></li>
                         </ul>
                     </div>
                 </div>
-                <div class="col-lg-3 col-md-6 col-sm-12">
+                <div class="col-lg-3 col-6">
                     <div class="footer-block">
                         <h6 class="link-title">Contact</h6>
                         <ul class="link">
@@ -54,6 +55,7 @@
                 </div>
             </div>
             <!-- End Footer Info -->
+            </div>
         </div>
     </div>
     <p style="text-align: center;color: rgba(0, 0, 0, 0.7);font-size: 14px;">Copyright ©2018 Nurse357 Pty Ltd. All rights reserved.</p>
