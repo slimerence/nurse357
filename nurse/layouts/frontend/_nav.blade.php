@@ -23,12 +23,12 @@
                     <a class="nav-link" href="{{ url('/contact-us') }}">{{ trans('nurse.contact') }}</a>
                 </li>
                 @if(!session('user_data.id'))
-                    <li class="nav-item"> <a class="nav-link" href="{{ url('frontend/customers/login') }}"><i class="fa fa-sign-in" aria-hidden="true"></i><span> {{ trans('nurse.login') }}</span></a></li>
-                    <li class="nav-item"> <a class="nav-link" href="{{ url('frontend/customers/register') }}"><i class="fa fa-user" aria-hidden="true"></i><span> {{ trans('nurse.register') }}</span></a></li>
+                    <li class="nav-item"> <a class="nav-link" href="{{ url('frontend/customers/login') }}"><i class="fa fa-sign-in fa-fw" aria-hidden="true"></i><span> {{ trans('nurse.login') }}</span></a></li>
+                    <li class="nav-item"> <a class="nav-link" href="{{ url('frontend/customers/register') }}"><i class="fa fa-user fa-fw" aria-hidden="true"></i><span> {{ trans('nurse.register') }}</span></a></li>
                 @else
-                    <li class="nav-item"> <a class="nav-link" href="{{ url('frontend/my_orders/'.session('user_data.uuid')) }}"><i class="fa fa-wpforms" aria-hidden="true"></i><span>{{ trans('nurse.myorder') }}</span></a></li>
+                    <li class="nav-item"> <a class="nav-link" href="{{ url('frontend/my_orders/'.session('user_data.uuid')) }}"><i class="fa fa-wpforms fa-fw" aria-hidden="true"></i><span>{{ trans('nurse.myorder') }}</span></a></li>
                     <li class="nav-item"> <a class="nav-link" href="{{ route('logout') }}" onclick="event.preventDefault();document.getElementById('logout-form').submit();">
-                            <i class="fa fa-sign-out" aria-hidden="true"></i></i>
+                            <i class="fa fa-sign-out" aria-hidden="true"></i>
                             <span> {{ trans('nurse.logout') }}</span>
                             <form id="logout-form" action="{{ route('logout') }}" method="POST" class="hidden">
                                 @csrf
