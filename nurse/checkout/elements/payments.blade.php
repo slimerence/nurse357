@@ -1,6 +1,6 @@
 <div class="box">
     <div class="payment-method-title">
-        <h4>{{ trans('payment.Title') }}</h4>
+        <h4>Make A Payment</h4>
         <p class="has-text-grey mt-10">{{ trans('payment.Subtitle') }}</p>
     </div>
     @foreach($paymentMethods as $key=>$paymentMethod)
