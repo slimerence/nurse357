@@ -5,6 +5,7 @@
     <title>@yield('title','Nurse357')</title>
     <meta name="csrf-token" content="{{ csrf_token() }}">
     @yield('seoconfig')
+    <meta name="google-site-verification" content="ORdefwpL3ukzb1sRI5hZhVo8jTvXVTGNfMnKGVtodQo" />
     <link href="https://fonts.googleapis.com/css?family=Playfair+Display:400i" rel="stylesheet">
     <link href='https://fonts.googleapis.com/css?family=Roboto:400,100,100italic,300,300italic,400italic,500,500italic,700,700italic,900,900italic' rel='stylesheet' type='text/css'>
     <link href="https://fonts.googleapis.com/css?family=Marck+Script" rel="stylesheet">
