@@ -16,7 +16,7 @@ return [
     'terms' => 'Terms & Conditions',
     'shipreturn' => 'Shipping & Returns',
     'why' => 'Why Choose Us?',
-    'why1' => '99.99% purity of squalene',
+    'why1' => '99.9% purity of squalene',
     'why2' => 'Commitment on research and innovation of Nutritional Health products in Australia',
     'why3' => 'Complying with Australian Therapeutic Goods Administration (TGA)',
     'why4' => 'Only Squalene product is selling in Ramsay Pharmacy',
