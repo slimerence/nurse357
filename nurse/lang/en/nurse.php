@@ -22,5 +22,7 @@ return [
     'why4' => 'Only Squalene product is selling in Ramsay Pharmacy',
     'why5' => 'Commitment to sustainable environment development in Australia.',
     'why6' => 'Australian trusted health supplies',
+    'sinfo' => 'Squalene Capsule',
+    'infoof' => 'Information Of'
 
 ];

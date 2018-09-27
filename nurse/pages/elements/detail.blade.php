@@ -1,7 +1,8 @@
 <section id="features" class="page-section">
     <div class="container text-center">
         <div class="feature-header">
-        <h3 class="feature-head">Squalene Information</h3>
+            <h2 class="feature-head">{{ trans('nurse.infoof') }}</h2>
+        <h1 class="feature-head">{{ trans('nurse.sinfo') }}</h1>
         <p class="feature-sub">NURSE357 Squalene functions as a strong antioxidant. It assists in the maintenance of healthy skin and hair and the improvement of general wellbeing.</p>
         </div>
         <div class="row">
@@ -14,7 +15,7 @@
                 <div class="features-box-right features-box">
                     <div class="features-icon"><i class="fa fa-medkit" aria-hidden="true"></i></div>
                     <h5 class="features-title">Dosage/Direction</h5>
-                    <p class="features-content">Take 1-3 capsules per day before meals, or as directed by your professional. </p>
+                    <p class="features-content">Take 1-3 squalene capsules per day before meals, or as directed by your professional. </p>
                 </div>
 
             </div>
@@ -30,7 +31,7 @@
                 <div class="features-box-left features-box">
                     <div class="features-icon"><i class="fa fa-medkit" aria-hidden="true"></i></div>
                     <h5 class="features-title">Active Ingredients Per Capsule</h5>
-                    <p class="features-content">Each capsule contains 1000mg squalene.</p>
+                    <p class="features-content">Each squalene capsule contains 1000mg squalene.</p>
                 </div>
 
             </div>
