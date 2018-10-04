@@ -1,5 +1,15 @@
 @extends(_get_frontend_layout_path('frontend'))
-
+@section('seoconfig')
+    @if(app()->getLocale()=='en')
+    @section('title','Squalene Capsule | Australian Health Products')
+    <meta name="keywords" content="Squalene Capsule | Australian Health Products">
+    <meta name="description" content="Nurse 357 is leading and premium Australian health products supplier. Our squalene capsule has highest purity and effect. Our health products online store can offer the most convenience and health choices for you and your family. Shop now, get healthy life. ">
+    @else
+        @section('title','天然角鲨烯胶囊 | 澳洲保健品')
+        <meta name="keywords" content="天然角鲨烯胶囊 | 澳洲保健品">
+        <meta name="description" content="NURSE357是澳大利亚的专业保健品品牌。旗下的天然角鲨烯胶囊具有高纯度，易吸收的特点，并且在降血脂，心血管保护等方面效果显著。购买澳洲保健品，请认准NURSE357。">
+    @endif
+@endsection
 @section('content')
     @include(_get_frontend_layout_path('frontend._header'))
     <section id="about" style="padding:20px 0;">
