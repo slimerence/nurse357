@@ -23,6 +23,6 @@ return [
     'why5' => 'Commitment to sustainable environment development in Australia.',
     'why6' => 'Australian trusted health supplies',
     'sinfo' => 'Squalene Capsule',
-    'infoof' => 'Information Of'
-
+    'infoof' => 'Information Of',
+    'blog' => 'Blogs',
 ];

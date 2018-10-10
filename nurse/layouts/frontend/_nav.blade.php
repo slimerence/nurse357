@@ -20,6 +20,9 @@
                     <a class="nav-link" href="{{ url('/product') }}">{{ trans('nurse.shop') }}</a>
                 </li>
                 <li class="nav-item">
+                    <a class="nav-link" href="{{ url('/page/blog') }}">{{ trans('nurse.blog') }}</a>
+                </li>
+                <li class="nav-item">
                     <a class="nav-link" href="{{ url('/contact-us') }}">{{ trans('nurse.contact') }}</a>
                 </li>
                 @if(!session('user_data.id'))
