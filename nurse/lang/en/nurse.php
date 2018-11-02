@@ -25,4 +25,13 @@ return [
     'sinfo' => 'Squalene Capsule',
     'infoof' => 'Information Of',
     'blog' => 'Blogs',
+    'ft1'=>'Features and Benefits',
+    'fc1'=>'Maintain healthy heart and cardiovascular system.Strong anti-oxidant.',
+    'ft2'=>'Dosage/Direction',
+    'fc2'=>'Take 1-3 squalene capsules per day before meals, or as directed by your professional.',
+    'ft3'=>'Storage',
+    'fc3'=>'Store below 30 degrees Cin a cool dry place. Do not use if seal is broken.',
+    'ft4'=>'Active Ingredients Per Capsule',
+    'fc4'=>'Each squalene capsule contains 1000mg squalene.',
+    'fb'=>'NURSE357 Squalene functions as a strong antioxidant. It assists in the maintenance of healthy skin and hair and the improvement of general wellbeing.',
 ];

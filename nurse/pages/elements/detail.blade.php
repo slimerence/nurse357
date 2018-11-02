@@ -1,28 +1,29 @@
 <section id="features" class="page-section">
     <div class="container text-center">
         <div class="feature-header">
-            <h3 class="feature-head">{{ trans('nurse.infoof') }}</h3>
-        <h1 class="feature-head">{{ trans('nurse.sinfo') }}</h1>
+
             @if( \Illuminate\Support\Facades\URL::current() == url('/') )
-                <p class="feature-sub" style="max-width: 100%; font-size: 14px;">
-                1906年瑞典科学家卡约博士发现角鲨烯，并因此获得了当年的诺贝尔奖。角鲨烯是从栖息在深海大型鲨鱼肝脏中提取出的天然物质，角鲨烯在体内与低密度蛋白质结合，通过血液运输并分布到身体各组织，大大加强肌体对氧的利用力从而避免了肌体因缺氧而引起的各种疾病。同时大大提高人体耐受力，大幅度改善心脏功能，保护肝脏，抗衰老、预防糖尿病和修复细胞增强抵抗力等作用。在海洋鱼油类产品中，角鲨烯是唯一确认有防癌作用，并被广泛用于肿瘤病人的药物。
-                深海鱼油是海洋鱼类脂肪的萃取物属于油脂类产品，其主要成份是DHA/EPA多元不饱和脂肪酸。角鲨烯深海大型鲨鱼肝脏中提取出的天然物质，其主要成份是维他命A与D，深海鱼油相对比较便宜，角鲨烯的价格十分珍惜也昂贵。
-               </p>
+                <h3 class="feature-head">{{ trans('nurse.infoof') }}</h3>
+                <h1 class="feature-head">{{ trans('nurse.sinfo') }}</h1>
                 @else
-                <p class="feature-sub">NURSE357 Squalene functions as a strong antioxidant. It assists in the maintenance of healthy skin and hair and the improvement of general wellbeing.</p>
+                <h3 class="feature-head">{{ trans('nurse.infoof') }}</h3>
+                <h3 class="feature-head">{{ trans('nurse.sinfo') }}</h3>
             @endif
+            <p class="feature-sub" style="max-width: 100%; font-size: 14px;">
+                {{ trans('nurse.fb') }}
+            </p>
         </div>
         <div class="row">
             <div class="wow fadeInLeft col-md-4 d-flex align-content-center flex-wrap animated" style="visibility: visible; animation-name: fadeInLeft;">
                 <div class="features-box-right features-box">
                     <div class="features-icon"><i class="fa fa-medkit" aria-hidden="true"></i></div>
-                    <h5 class="features-title">Features and Benefits: </h5>
-                    <p class="features-content">Maintain healthy heart and cardiovascular system.Strong anti-oxidant.</p>
+                    <h5 class="features-title">{{ trans('nurse.ft1') }}</h5>
+                    <p class="features-content">{{ trans('nurse.fc1') }}</p>
                 </div>
                 <div class="features-box-right features-box">
                     <div class="features-icon"><i class="fa fa-medkit" aria-hidden="true"></i></div>
-                    <h5 class="features-title">Dosage/Direction</h5>
-                    <p class="features-content">Take 1-3 squalene capsules per day before meals, or as directed by your professional. </p>
+                    <h5 class="features-title">{{ trans('nurse.ft2') }}</h5>
+                    <p class="features-content">{{ trans('nurse.fc2') }}</p>
                 </div>
 
             </div>
@@ -32,13 +33,13 @@
             <div class="wow fadeInRight col-md-4 d-flex align-content-center flex-wrap animated" style="visibility: visible; animation-name: fadeInRight;">
                 <div class="features-box-left features-box">
                     <div class="features-icon"><i class="fa fa-medkit" aria-hidden="true"></i></div>
-                    <h5 class="features-title">Storage</h5>
-                    <p class="features-content">Store below 30 degrees Cin a cool dry place. Do not use if seal is broken.</p>
+                    <h5 class="features-title">{{ trans('nurse.ft3') }}</h5>
+                    <p class="features-content">{{ trans('nurse.fc3') }}</p>
                 </div>
                 <div class="features-box-left features-box">
                     <div class="features-icon"><i class="fa fa-medkit" aria-hidden="true"></i></div>
-                    <h5 class="features-title">Active Ingredients Per Capsule</h5>
-                    <p class="features-content">Each squalene capsule contains 1000mg squalene.</p>
+                    <h5 class="features-title">{{ trans('nurse.ft4') }}</h5>
+                    <p class="features-content">{{ trans('nurse.fc4') }}</p>
                 </div>
 
             </div>

@@ -25,4 +25,14 @@ return [
     'sinfo' => '角鲨烯',
     'infoof' => '详细介绍',
     'blog'=>'博客',
+    'ft1'=>'Features and Benefits',
+    'fc1'=>'Maintain healthy heart and cardiovascular system.Strong anti-oxidant.',
+    'ft2'=>'Dosage/Direction',
+    'fc2'=>'Take 1-3 squalene capsules per day before meals, or as directed by your professional.',
+    'ft3'=>'Storage',
+    'fc3'=>'Store below 30 degrees Cin a cool dry place. Do not use if seal is broken.',
+    'ft4'=>'Active Ingredients Per Capsule',
+    'fc4'=>'Each squalene capsule contains 1000mg squalene.',
+    'fb'=>'1906年瑞典科学家卡约博士发现角鲨烯，并因此获得了当年的诺贝尔奖。角鲨烯是从栖息在深海大型鲨鱼肝脏中提取出的天然物质，角鲨烯在体内与低密度蛋白质结合，通过血液运输并分布到身体各组织，大大加强肌体对氧的利用力从而避免了肌体因缺氧而引起的各种疾病。同时大大提高人体耐受力，大幅度改善心脏功能，保护肝脏，抗衰老、预防糖尿病和修复细胞增强抵抗力等作用。在海洋鱼油类产品中，角鲨烯是唯一确认有防癌作用，并被广泛用于肿瘤病人的药物。
+                深海鱼油是海洋鱼类脂肪的萃取物属于油脂类产品，其主要成份是DHA/EPA多元不饱和脂肪酸。角鲨烯深海大型鲨鱼肝脏中提取出的天然物质，其主要成份是维他命A与D，深海鱼油相对比较便宜，角鲨烯的价格十分珍惜也昂贵。',
 ];

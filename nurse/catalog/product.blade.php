@@ -79,6 +79,7 @@
                                 @if(count($product_options)>0)
                                     @include(_get_frontend_theme_path('catalog.elements.sections.options'))
                                 @endif
+                                @if(false)
                                 <div class="add-to-cart-form-wrap">
                                     <div class="field">
                                         <p class="d-inline-block">Qty:
@@ -118,6 +119,7 @@
                                         @endif
                                     </div>
                                 </div>
+                                @endif
                             </form>
                             <div class="product-desc mt-30">
                                 <nav>
