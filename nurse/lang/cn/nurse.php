@@ -4,7 +4,7 @@ return [
     'menu' =>'导航',
     'home' =>'主页',
     'about' =>'关于我们',
-    'shop' => '购买',
+    'shop' => '产品介绍',
     'contact' => '联系我们',
     'login' => '登录',
     'logout' => '登出',
