@@ -20,7 +20,7 @@
             <div class="row">
                 <div class="col-lg-12">
                     <div class="news-heading text-center">
-                        <h1>{{ $blog->title }}</h1>
+                        <h3 style="font-size: 30px;">{{ $blog->title }}</h3>
                     </div>
                 <!-- News Open page News Heading or Title End -->
                 <!-- News Open page Contant Start -->
