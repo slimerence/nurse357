@@ -15,3 +15,7 @@ Route::get('/sitemap',function(){
     return response()->view(_get_frontend_theme_path('pages.sitemap'))
         ->header('Content-Type', 'xml');
 });
+Route::get('/sitemap.xml',function(){
+    return response()->view(_get_frontend_theme_path('pages.sitemap'))
+        ->header('Content-Type', 'xml');
+});
