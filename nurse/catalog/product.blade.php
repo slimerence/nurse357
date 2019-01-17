@@ -59,7 +59,7 @@
                                             <p><strong class="dark-color">SKU :</strong><span>{{ $product->sku }}</span></p>
                                         </li>
                                         <li>
-                                            <p><strong class="dark-color">Cap :</strong><span>60</span></p>
+                                            <p><strong class="dark-color">Cap :</strong><span>180</span></p>
                                         </li>
                                     </ul>
                                     </div>
