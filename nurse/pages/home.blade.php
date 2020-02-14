@@ -42,37 +42,8 @@
                         <div class="no-list-style">
                             <ul>
                                 <li>Monday to Friday: 7am - 7pm</li>
-                                <li>Saturday: 9am - 6pm</li>
-                                <li>Sunday: 10am - 5pm</li>
-                            </ul>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-4 col-sm-12">
-                    <div class="ad-box">
-                        <h3>RAMSAY PHARMACY TUNSTALL SQUARE</h3>
-                        <p>54 Tunstall Square, Doncaster East VIC 3109, AUSTRALIA</p>
-                        <h3 class="mt-20">Opening Hours</h3>
-                        <div class="no-list-style">
-                            <ul>
-                                <li>Monday to Friday: 7am - 7pm</li>
                                 <li>Saturday: 9am - 5pm</li>
-                                <li>Sunday: 10am - 2pm</li>
-                            </ul>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-4 col-sm-12">
-                    <div class="ad-box">
-                        <h3>QUEEN STREET MALL PHARMACY</h3>
-                        <p>141 Queen Street, Brisbane CBD, QLD 4000, AUSTRALIA</p>
-                        <h3 class="mt-20">Opening Hours</h3>
-                        <div class="no-list-style">
-                            <ul>
-                                <li>Monday to Thursday: 7am - 9pm</li>
-                                <li>Friday: 7am - 9:30pm</li>
-                                <li>Saturday: 8am - 9pm &nbsp;Sunday: 8:30am - 7pm</li>
-                                <li>Public Holidays: 9am - 7:30pm</li>
+                                <li>Sunday: 10am - 5pm</li>
                             </ul>
                         </div>
                     </div>

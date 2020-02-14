@@ -25,12 +25,6 @@
             </div>
             <div class="col-lg-4 col-md-12">
                 <div class="wow fadeInpb-4 pb-lg-0 animated whyico" data-wow-delay=".4s" style="visibility: visible; animation-delay: 0.4s;">
-                    <i class="fa fa-medkit fa-3x fa-fw mb-2"></i>
-                    <p class="mb-3">{{ trans('nurse.why4') }}</p>
-                </div>
-            </div>
-            <div class="col-lg-4 col-md-12">
-                <div class="wow fadeInpb-4 pb-lg-0 animated whyico" data-wow-delay=".4s" style="visibility: visible; animation-delay: 0.4s;">
                     <i class="fa fa-handshake-o fa-3x fa-fw mb-2"></i>
                     <p class="mb-3">{{ trans('nurse.why5') }}</p>
                 </div>
