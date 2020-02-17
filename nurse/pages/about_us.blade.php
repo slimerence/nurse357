@@ -99,10 +99,6 @@
                     <p>Nurse357为消费者提供一系列创新的服务，其中包括在获得数以万计的临床使用反馈后，我们对Nurse357角鲨烯产品持续不断的效能提升。Nurse357深信消费者的临床服用结果是一个广泛的大数据创新资源来源，是未来Nurse357使用者的健康福祉资源。所以Nurse357的顶级研发团队始终保持着巨大的创新活力来不断改善修正我们的配方，直至将角鲨烯的药理学发挥至极致。</p>
                     <h4>Nurse357由澳洲联邦药物管理局 (TGA) 监管下研发生产</h4>
                     <p>Nurse357致力于提供符合最高质量标准的天然保健产品。与其他竞争对手全球采购计划不同， Nurse357深信澳洲本地的原材料是其他国家和区域无法匹敌的，因此Nurse357只利用澳大利亚本土高品质的原料xxxx （原材料名称）并结合最新的临床营养医学文献指导下研发。Nurse357从原料的获取、检测、加工到成品包装和检验等各个环节均按照严格按照澳洲CGMP药品制造规范守则进行管制型生产，并接受由澳洲联邦药物管理局 (TGA) 监管。</p>
-                    <h4> Nurse357是澳洲高端药房Ramsay Pharmacy 唯一在售角鲨烯产品</h4>
-                    <p>Nurse357 是 Ramsay Health Care 旗下 Ramsay Pharmacy Home Brand. 是目前澳洲高端药房Ramsay Pharmacy唯一允许在售的角鲨烯产品。<br>
-                        （关于Ramsay Health Care Ramsay Health Care成立于1964年，半个多世纪以来一直专注于医养结合澳大利亚最大的医药集团，目前在六个国家运营管理235 家医院并在澳洲上市，总部设在澳洲悉尼。 ）
-                    </p>
                     <h4>Nurse357是一个负责任的澳洲营养品研发生产者</h4>
                     <p>Nurse357对环境和社会责任的长期承诺包括对澳大利亚自然资源可持续发展的贡献，包括我们支持社区组织和回馈澳洲社会（这里您可能需要增加一些社会活动的材料）</p>
                 @else
@@ -114,11 +110,6 @@
                     <p>Nurse357 offers customers a range of innovative services, including our continuous improvement in the effect of Nurse357 Squalene products after receiving tens of thousands of clinical practice feedback. Nurse357 is convinced that the clinical use of customers is a broad source with innovation, and well-being resource for future Nurse357 customers. Therefore, the top R&D team of Nurse357 has always maintained a great creative vitality to continuously improve and modify our formula until the Squalene achieves maximized pharmacological effects.</p>
                     <h4>Nurse357 is developed and manufactured under the supervision of the Australian Therapeutic Goods Administration (TGA).</h4>
                     <p>Nurse357 is committed to providing natural products that meet the highest quality standards. Never conducting global sourcing strategy, Nurse357 only uses Australia's high-quality raw materials xxxx (raw material name) with the guidance of the latest clinical nutrition literatures. Nurse357 is controlled by the Australian Therapeutic Goods Administration (TGA) in strict accordance with the Australian CGMP Drug Manufacturing Code.</p>
-                    <h4>Nurse357 is the only Squalene product, which sells in  Ramsay Pharmacy</h4>
-                    <p>NURSE357 is only Squalene product available in Australia's high-end pharmacy Ramsay Pharmacy. Ramsay Pharmacy is the home brand of Ramsay Health Care. It is the only squalene product currently available in Australia's high-end pharmacy Ramsay Pharmacy.<br>
-                        (About Ramsay Health Care: Founded in 1964, Ramsay Health Care has been focused on healthcare for more than half a century and is Australia's largest pharmaceutical group. It currently operates 235 hospitals in six countries and is listed in Australia, with its headquarter in Sydney, Australia. )
-
-                    </p>
                     <h4>Nurse357 is a responsible Nutrition R&D manufacturer in Australia</h4>
                     <p>Nurse357 has long-term commitment to environmental and social responsibility, including contributions to the sustainable development of natural resources in Australia, and support for community and contribute to Australian society.</p>
                 @endif
